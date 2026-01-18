@@ -1,7 +1,7 @@
 {
   "name": "git-workflow",
   "description": "Git workflow automation with interactive scripts. Provides branch, sync, commit, push, PR, and merge commands with lint checking and safety guards.",
-  "version": "1.6.0",
+  "version": "2.0.0",
   "author": {
     "name": "nasodev",
     "email": "creationand2017@gmail.com"

@@ -14,22 +14,10 @@ model: opus
 
 ## 스크립트 실행
 
-먼저 스크립트 존재 여부를 확인:
+**플러그인 스크립트를 직접 실행 (프로젝트에 복사하지 않음):**
 
 ```bash
-[ -d "./scripts" ] && echo "EXISTS" || echo "NOT_FOUND"
-```
-
-### 스크립트가 있으면 (EXISTS)
-
-```bash
-./scripts/git-push.sh
-```
-
-### 스크립트가 없으면 (NOT_FOUND)
-
-```bash
-cp -r ~/.claude/plugins/cache/nasodev-marketplace/git-workflow/*/scripts ./scripts && chmod +x ./scripts/*.sh && echo "✅ scripts 폴더 복사 완료" && ./scripts/git-push.sh
+bash ~/.claude/plugins/cache/nasodev-marketplace/git-workflow/*/scripts/git-push.sh
 ```
 
 ---
