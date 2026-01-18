@@ -12,10 +12,28 @@ model: haiku
 
 ---
 
-**⚠️ 반드시 Bash tool로 아래 스크립트를 실행해라. 다른 방법은 허용하지 않는다.**
+## 스크립트 실행
+
+먼저 스크립트 존재 여부를 확인:
+
+```bash
+[ -f "./scripts/git-check.sh" ] && echo "EXISTS" || echo "NOT_FOUND"
+```
+
+### 스크립트가 있으면 (EXISTS)
 
 ```bash
 ./scripts/git-check.sh
+```
+
+### 스크립트가 없으면 (NOT_FOUND)
+
+**사용자에게 아래 메시지를 표시하고 복사 명령어를 실행해라:**
+
+> ⚠️ scripts 폴더가 없습니다. 플러그인에서 복사합니다...
+
+```bash
+cp -r ~/.claude/plugins/cache/nasodev-marketplace/git-workflow/*/scripts ./scripts && chmod +x ./scripts/*.sh && echo "✅ scripts 폴더 복사 완료" && ./scripts/git-check.sh
 ```
 
 ---
