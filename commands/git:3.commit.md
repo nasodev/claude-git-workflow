@@ -1,5 +1,5 @@
 ---
-name: git-commit
+name: git:3.commit
 description: "변경사항 커밋 (isolated fork)"
 context: fork
 allowed-tools: [Bash]

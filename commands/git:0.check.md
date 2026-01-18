@@ -1,5 +1,5 @@
 ---
-name: git-check
+name: git:0.check
 description: "Git 상태 확인 (isolated fork)"
 context: fork
 allowed-tools: [Bash]

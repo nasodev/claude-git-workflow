@@ -1,5 +1,5 @@
 ---
-name: git-push
+name: git:4.push
 description: "Remote에 Push (isolated fork)"
 context: fork
 allowed-tools: [Bash]

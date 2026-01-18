@@ -1,5 +1,5 @@
 ---
-name: git-pr
+name: git:5.pr
 description: "Pull Request 생성 (isolated fork)"
 context: fork
 allowed-tools: [Bash]
