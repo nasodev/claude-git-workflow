@@ -20,6 +20,17 @@ model: haiku
 
 ---
 
+## 필수 출력 (반드시 사용자에게 보여줄 것)
+
+스크립트 실행 후 **아래 정보를 요약해서 반드시 표시**해라:
+
+1. **현재 브랜치** 및 upstream 상태
+2. **User Configuration** - Local/Global/Effective name과 email (커밋 시 누구 이름으로 올라가는지 중요!)
+3. **Working Directory** - 변경사항 개수
+4. **최근 커밋** 3개
+
+---
+
 ## 표시 정보
 
 ### Repository
