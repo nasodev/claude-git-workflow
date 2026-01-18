@@ -3,7 +3,7 @@ name: git:6.merge
 description: "Main에 머지 (isolated fork)"
 context: fork
 allowed-tools: [Bash]
-model: haiku
+model: opus
 ---
 
 # Main에 머지

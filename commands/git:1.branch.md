@@ -3,7 +3,7 @@ name: git:1.branch
 description: "새 브랜치 생성 (isolated fork)"
 context: fork
 allowed-tools: [Bash]
-model: haiku
+model: opus
 ---
 
 # 새 브랜치 생성

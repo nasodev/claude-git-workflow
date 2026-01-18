@@ -3,7 +3,7 @@ name: git:2.sync
 description: "main 브랜치 동기화 (isolated fork)"
 context: fork
 allowed-tools: [Bash]
-model: haiku
+model: opus
 ---
 
 # main 브랜치 동기화

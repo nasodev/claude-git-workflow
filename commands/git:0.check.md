@@ -3,7 +3,7 @@ name: git:0.check
 description: "Git 상태 확인 (isolated fork)"
 context: fork
 allowed-tools: [Bash]
-model: haiku
+model: opus
 ---
 
 # Git 상태 및 설정 확인
