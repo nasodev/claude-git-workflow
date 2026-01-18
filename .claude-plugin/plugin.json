@@ -3,9 +3,11 @@
   "description": "Git workflow automation with interactive scripts. Provides branch, sync, commit, push, PR, and merge commands with lint checking and safety guards.",
   "version": "1.0.0",
   "author": {
-    "name": "funq",
-    "email": "funq@example.com"
+    "name": "nasodev",
+    "email": "creationand2017@gmail.com"
   },
-  "repository": "https://github.com/funq/claude-git-workflow",
-  "keywords": ["git", "workflow", "automation", "commit", "branch", "pr"]
+  "homepage": "https://github.com/nasodev/claude-git-workflow",
+  "repository": "https://github.com/nasodev/claude-git-workflow",
+  "license": "MIT",
+  "keywords": ["git", "workflow", "automation", "commit", "branch", "pr", "claude-code"]
 }

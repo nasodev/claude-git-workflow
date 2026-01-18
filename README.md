@@ -26,30 +26,36 @@ Git 워크플로우 자동화를 위한 Claude Code 플러그인입니다.
 
 ## 설치
 
-### 1. 플러그인 설치
+### 방법 1: Marketplace를 통한 설치 (권장)
 
 ```bash
-# Claude Code에서
-/plugin install git-workflow
+# 1. Marketplace 추가
+/plugin marketplace add nasodev/nasodev-marketplace
+
+# 2. 플러그인 설치
+/plugin install git-workflow@nasodev-marketplace
 ```
 
-### 2. 스크립트 설치
+### 방법 2: 수동 설치
 
-프로젝트 루트에 scripts 디렉토리가 필요합니다:
+프로젝트에 직접 복사:
 
 ```bash
-# 플러그인의 scripts를 프로젝트에 복사
-cp -r ~/.claude/plugins/cache/.../git-workflow/scripts ./scripts
+# GitHub에서 다운로드
+curl -sL https://github.com/nasodev/claude-git-workflow/archive/main.tar.gz | tar xz
 
-# 또는 GitHub에서 직접 다운로드
-curl -sL https://github.com/funq/claude-git-workflow/archive/main.tar.gz | tar xz
+# commands 복사
+mkdir -p .claude/commands
+cp claude-git-workflow-main/commands/* .claude/commands/
+
+# scripts 복사
 cp -r claude-git-workflow-main/scripts ./scripts
-```
 
-### 3. 실행 권한 부여
-
-```bash
+# 실행 권한 부여
 chmod +x ./scripts/*.sh
+
+# 정리
+rm -rf claude-git-workflow-main
 ```
 
 ## 스크립트 기능
