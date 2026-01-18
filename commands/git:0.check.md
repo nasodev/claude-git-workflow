@@ -1,5 +1,6 @@
 ---
 description: "Git 상태 및 설정 확인"
+context: fork
 ---
 
 # Git 상태 및 설정 확인

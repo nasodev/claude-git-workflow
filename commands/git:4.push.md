@@ -1,5 +1,6 @@
 ---
 description: "Remote에 Push"
+context: fork
 ---
 
 # Remote에 Push

@@ -1,5 +1,6 @@
 ---
 description: "변경사항 커밋"
+context: fork
 ---
 
 # 변경사항 커밋

@@ -1,5 +1,6 @@
 ---
 description: "main 브랜치 동기화"
+context: fork
 ---
 
 # main 브랜치 동기화

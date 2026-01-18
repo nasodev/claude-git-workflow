@@ -1,5 +1,6 @@
 ---
 description: "Pull Request 생성"
+context: fork
 ---
 
 # Pull Request 생성

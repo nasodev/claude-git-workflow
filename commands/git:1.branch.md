@@ -1,5 +1,6 @@
 ---
 description: "새 브랜치 생성"
+context: fork
 ---
 
 # 새 브랜치 생성
