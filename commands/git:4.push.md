@@ -1,6 +1,9 @@
 ---
-description: "Remote에 Push"
+name: git-push
+description: "Remote에 Push (isolated fork)"
 context: fork
+allowed-tools: [Bash]
+model: haiku
 ---
 
 # Remote에 Push

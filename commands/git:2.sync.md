@@ -1,6 +1,9 @@
 ---
-description: "main 브랜치 동기화"
+name: git-sync
+description: "main 브랜치 동기화 (isolated fork)"
 context: fork
+allowed-tools: [Bash]
+model: haiku
 ---
 
 # main 브랜치 동기화

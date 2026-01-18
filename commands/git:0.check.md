@@ -1,6 +1,9 @@
 ---
-description: "Git 상태 및 설정 확인"
+name: git-check
+description: "Git 상태 확인 (isolated fork)"
 context: fork
+allowed-tools: [Bash]
+model: haiku
 ---
 
 # Git 상태 및 설정 확인

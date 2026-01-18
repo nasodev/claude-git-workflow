@@ -1,6 +1,9 @@
 ---
-description: "새 브랜치 생성"
+name: git-branch
+description: "새 브랜치 생성 (isolated fork)"
 context: fork
+allowed-tools: [Bash]
+model: haiku
 ---
 
 # 새 브랜치 생성

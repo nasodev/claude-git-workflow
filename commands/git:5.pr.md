@@ -1,6 +1,9 @@
 ---
-description: "Pull Request 생성"
+name: git-pr
+description: "Pull Request 생성 (isolated fork)"
 context: fork
+allowed-tools: [Bash]
+model: sonnet
 ---
 
 # Pull Request 생성

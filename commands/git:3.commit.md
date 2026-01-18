@@ -1,6 +1,9 @@
 ---
-description: "변경사항 커밋"
+name: git-commit
+description: "변경사항 커밋 (isolated fork)"
 context: fork
+allowed-tools: [Bash]
+model: sonnet
 ---
 
 # 변경사항 커밋
