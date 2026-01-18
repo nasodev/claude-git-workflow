@@ -1,0 +1,52 @@
+---
+description: "Git 상태 및 설정 확인"
+---
+
+# Git 상태 및 설정 확인
+
+현재 저장소의 브랜치, 사용자 설정, 작업 상태를 확인한다.
+
+---
+
+**⚠️ 반드시 Bash tool로 아래 스크립트를 실행해라. 다른 방법은 허용하지 않는다.**
+
+```bash
+./scripts/git-check.sh
+```
+
+---
+
+## 표시 정보
+
+### Repository
+- 저장소 이름, 경로
+- Remote URL
+
+### Branch
+- 현재 브랜치
+- 기본 브랜치
+- 로컬/리모트 브랜치 개수
+- Upstream 상태 (ahead/behind)
+
+### User Configuration
+- Local 설정 (name, email)
+- Global 설정 (name, email)
+- 실제 사용될 설정
+
+### Working Directory
+- Staged/Unstaged/Untracked 파일 수
+- Stash 개수
+
+### Recent Commits
+- 최근 5개 커밋
+
+### Additional Settings
+- GPG 서명 여부
+- 에디터
+- Credential helper
+
+## 워크플로우
+
+```
+[0.check] → 1.branch → 2.sync → 3.commit → 4.push → 5.pr → 6.merge
+```
