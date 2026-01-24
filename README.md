@@ -8,18 +8,18 @@ Git 워크플로우 자동화를 위한 Claude Code 플러그인입니다.
 
 | 커맨드 | 설명 |
 |--------|------|
-| `/git:0.check` | Git 상태 및 설정 확인 |
-| `/git:1.branch` | 새 브랜치 생성 |
-| `/git:2.sync` | main 브랜치 동기화 |
-| `/git:3.commit` | 변경사항 커밋 |
-| `/git:4.push` | Remote에 Push |
-| `/git:5.pr` | Pull Request 생성 |
-| `/git:6.merge` | Main에 머지 |
+| `/git-0-check` | Git 상태 및 설정 확인 |
+| `/git-1-branch` | 새 브랜치 생성 |
+| `/git-2-sync` | main 브랜치 동기화 |
+| `/git-3-commit` | 변경사항 커밋 |
+| `/git-4-push` | Remote에 Push |
+| `/git-5-pr` | Pull Request 생성 |
+| `/git-6-merge` | Main에 머지 |
 
 ## 워크플로우
 
 ```
-/git:0.check → /git:1.branch → /git:2.sync → /git:3.commit → /git:4.push → /git:5.pr → /git:6.merge
+/git-0-check → /git-1-branch → /git-2-sync → /git-3-commit → /git-4-push → /git-5-pr → /git-6-merge
      ↓              ↓              ↓              ↓              ↓            ↓            ↓
   상태확인      새 브랜치       최신화          커밋          push        PR생성        머지
 ```
